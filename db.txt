@@ -1,3 +1,9 @@
+===========================ATENÇÃO========================
+
+NECESSÁRIO SEGUIR OS DOIS PASSOS ABAIXO PARA CRIAÇÃO DA ESTRUTURA "LOGIN" E DA TABELA "USER" PARA QUE O SISTEMA SEJA FUNCIONAL!
+
+
+
 =============SQL CODE TO CREATE TABLE DATABASE===============
 
 CREATE TABLE `login`.`user` ( `id` INT NOT NULL AUTO_INCREMENT , `email` VARCHAR(50) NOT NULL COMMENT 'Armazena o email do usuário.' , `pass` VARCHAR(50) NOT NULL COMMENT 'Armazena a senha do usuário.' , PRIMARY KEY (`id`)) ENGINE = InnoDB;
