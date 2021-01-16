@@ -7,17 +7,18 @@
     <link href="../../css\style.login.css" rel="stylesheet">
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
     <link href="../../js/bootstrap.min.js" rel="stylesheet">
+    <link href="../service/login.php" rel="script">
 </head>
 <body>
     <div>
         <div class="container">
-            <form class="" method="post">
+            <form method="post" action="../service/login.php">
                 <img class="mb-4 mt-5 ALIGN-CENTER" src="../../img/user.png" width="100" height="100">
                 <div class="form-input text-center">
-                    <input type="email" id="inputEmail" style="align-content: center" class="form-control" placeholder="Email" required autofocus>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Email" required autofocus>
                 </div>
                 <div class="form-input">
-                    <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
+                    <input type="password" id="pass" name="pass" class="form-control" placeholder="Senha" required>
                 </div>
                 <div class="checkbox mb-3 mt-3">
                     <label>
