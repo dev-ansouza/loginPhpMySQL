@@ -8,6 +8,7 @@ Foram usados no projeto:
 * MySQL
 * HTML
 * CSS
+* Bootstrap
 
 Vizualização da tela:
 
