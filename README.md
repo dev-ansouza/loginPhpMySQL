@@ -10,8 +10,14 @@ Foram usados no projeto:
 * CSS
 * Bootstrap
 
-Vizualização da tela:
+## Vizualização da tela de login
 
 ![github-small](img/viewpage.png)
 
-Atenciosamente, dev-ansouza.
+## Atenção!
+
+Necessário seguir as orientações contidas no arquivo "db.txt" para criação da estrutura "login" e adição da tabela "user" no banco de dados para que o projeto funcione corretamente. 
+
+## Autor
+
+* **Arthur Nunes de Souza** - (https://github.com/dev-ansouza)
